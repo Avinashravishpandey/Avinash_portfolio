@@ -1,0 +1,181 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8cb0e9;
+  color: #1f2937;
+}
+
+header {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #10b981;
+  font-weight: bold;
+}
+
+#hero {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 5em 0; 
+  text-align: center;
+}
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+  justify-content: center;
+}
+
+.about-img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-container p {
+  flex: 1;
+  min-width: 280px;
+  line-height: 1.6;
+}
+
+
+.hero-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #10b981;
+}
+
+section {
+  padding: 2em 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #1e3a8a;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+
+.project-item {
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+}
+
+.project-item h3 {
+  margin-top: 0;
+  color: #1e3a8a;
+}
+
+.project-item a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+#skills ol {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#skills ol li {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background-color: #e0f2fe;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #10b981;
+}
+
+footer {
+  background-color: #1c2336;
+  color: #fff;
+  text-align: 5% left ;
+  padding: 1em 5em;
+  position: inherit;
+  bottom: 0;
+  width: 100%;
+}
+
